@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/telReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号/会员号/邮箱"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/pwd1Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/pwd2Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号/会员号/邮箱"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/emailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
